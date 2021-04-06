@@ -115,9 +115,7 @@ sec002_column---2---
 
 .sec002-in .img {
     content: "";
-    background: url(../img/1440x880-main-001.jpg) no-repeat center center/cover;
-    background-color: rgb(134, 134, 134);
-    background-blend-mode: multiply;
+    background: url(../img/profile-img.jpg) no-repeat top -100px center/150%;
     width: 60%;
     height: 410px;
     margin-top: 150px;
@@ -139,30 +137,24 @@ sec002_column---2---
 }
 
 .sec002-in .img .img-in {
-    background: rgba(143, 140, 140, 0.747);
+    background: rgba(78, 77, 77, 0.747);
     width: 100%;
-    height: 100px;
+    height: 80px;
     position: absolute;
     bottom: 0;
-    line-height: 3;
+    line-height: 1.5;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px rgba(204, 0, 0, 0.76);
+    font-weight: 900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
-.sec002-in .img .img-in a {
-    font-size: 30px;
-    color: #f9f9f9;
-    font-weight: 600;
-}
-
-.sec002-in .img .img-in a:hover {
-    transition: 1s;
-    color: rgb(243, 235, 164);
-}
-
-.sec002-in time {
-    position: absolute;
-    bottom: 0;
-    right: 20px;
-    color: rgb(165, 165, 165);
+.img-in span{
+    padding-left: 50px;
 }
 
 .sec002-in .img-side {
@@ -171,15 +163,35 @@ sec002_column---2---
     width: 100%;
     height: 500px;
     margin-top: 90px;
+    padding: 20px;
     position: relative;
     border: solid 2px rgb(230, 230, 230);
     box-shadow: 2px 2px black;
     margin-left: 60px;
 }
 
+.img-side p{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.img-side .btn{
+    color: #373737;
+    border: 1px solid #373737;
+}
+
+.img-side .btn:hover {
+    color: #cc0000;
+    transition: color 0.1s linear 0s;
+}
+
+.img-side .btn::before {
+    background: #373737;
+}
+
 /* 
 
-sec003_linlArea
+sec003_SNS
 
 --------------------*/
 
