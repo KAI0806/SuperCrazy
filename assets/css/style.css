@@ -199,9 +199,33 @@ sec003_SNS
 
 --------------------*/
 
-.sec004_linkArea{
-    max-width: 1160px;
-    margin: 70px auto;
-    box-shadow: 0 0 black;
+.sec003-content{
+    height: 586px;
+    background-color: #FF6E6E;
 }
 
+.sec003-in{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec003-in h2{
+    color: white;
+}
+
+.sec003-content .twitter-timeline{
+    height: 550px;
+    overflow: hidden;
+}
+
+.instagram-media{
+    height: 500px;
+    width: 400px;
+    overflow: scroll;
+}
+
+/* 
+
+sec004_promis
+
+--------------------*/
