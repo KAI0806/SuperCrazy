@@ -1,0 +1,39 @@
+header{
+    display: block;
+    z-index: 1;
+    right: auto;
+    height: 62px;
+    padding: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    -webkit-transition: top 0.3s linear;
+    transition: top 0.3s linear;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+header .inner{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 40%;
+}
+
+header a{
+    font-family: 'Roboto', "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+header a:hover{
+    color: #cc0000;
+    transition: color 0.3s linear;
+}
