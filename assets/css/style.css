@@ -9,7 +9,6 @@ sec001_column---1---
 .sec001-content {
     max-width: 960px;
     margin: 70px auto;
-    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
 }
 
 .sec001-in {
@@ -81,7 +80,6 @@ sec002_column---2---
 .sec002-content {
     max-width: 1160px;
     margin: 70px auto;
-    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
 }
 
 .sec002-content .flex {
@@ -123,6 +121,7 @@ sec002_column---2---
     height: 300px;
     margin-top: 150px;
     position: relative;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
 }
 
 .sec002-in .img::after {
@@ -232,7 +231,6 @@ sec004_promis
 .sec004-content {
     max-width: 1160px;
     margin: 70px auto;
-    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
 }
 
 .sec004-content .flex {
@@ -275,6 +273,7 @@ sec004_promis
     margin-top: 150px;
     margin-left: 20px;
     position: relative;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
 }
 
 .sec004-in .img::after {
@@ -308,7 +307,6 @@ sec005_promis
 .sec005-content {
     max-width: 1160px;
     margin: 70px auto;
-    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
 }
 
 .sec005-content .flex {
