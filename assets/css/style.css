@@ -166,7 +166,6 @@ sec002_column---2---
     padding: 20px;
     position: relative;
     border: solid 2px rgb(230, 230, 230);
-    box-shadow: 2px 2px black;
     margin-left: 60px;
 }
 
@@ -298,7 +297,6 @@ sec004_promis
     padding: 20px;
     position: relative;
     border: solid 2px rgb(230, 230, 230);
-    box-shadow: 2px 2px black;
 }
 
 /* 
