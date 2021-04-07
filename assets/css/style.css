@@ -316,6 +316,11 @@ sec004_promis
     border: 1px solid #707070;
 }
 
+.activ-con:hover{
+    box-shadow: inset 12px 12px 20px #c7c7c7, 
+    inset -12px -12px 20px #c7c7c7;
+}
+
 .activ-con h5{
     color: #707070;
     font-weight: 100;
@@ -371,6 +376,11 @@ sec005_info
     margin-top: 7em;
 }
 
+.youtube:hover{
+    box-shadow: inset 12px 12px 20px #c7c7c7, 
+    inset -12px -12px 20px #c7c7c7;
+}
+
 .youtube a{
     display: flex;
 }
@@ -387,6 +397,11 @@ sec005_info
     width: 350px;
     height: 350px;
     border: solid 1px #707070;
+}
+
+.itinana:hover{
+    box-shadow: inset 12px 12px 20px #c7c7c7, 
+    inset -12px -12px 20px #c7c7c7;
 }
 
 .itinana a{

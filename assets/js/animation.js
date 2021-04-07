@@ -1,6 +1,12 @@
 var slideshowDuration = 4000;
 var slideshow = $('.main-content .slideshow');
 
+// window.setTimeout(slideshowNext, 4000);
+
+// function dispMsg(){
+//     newSlide.addClass('is-active').removeClass('is-new');
+// }
+
 function slideshowSwitch(slideshow, index, auto) {
     if (slideshow.data('wait')) return;
 
@@ -37,12 +43,12 @@ function slideshowSwitch(slideshow, index, auto) {
                 newSlideImage.css({ opacity: '' });
                 slideshow.find('.pagination').trigger('check');
                 slideshow.data('wait', false);
-                if (auto) {
-                    timeout = setTimeout(function() {
-                        slideshowNext(slideshow, false, true);
-                    }, slideshowDuration);
-                    slideshow.data('timeout', timeout);
-                }
+                
+                timeout = setTimeout(function() {
+                    slideshowNext(slideshow, false, true);
+                }, slideshowDuration);
+                slideshow.data('timeout', timeout);
+                
             }
         });
     } else {
@@ -141,12 +147,12 @@ function slideshowSwitch(slideshow, index, auto) {
 
             slideshow.find('.pagination').trigger('check');
             slideshow.data('wait', false);
-            if (auto) {
-                timeout = setTimeout(function() {
-                    slideshowNext(slideshow, false, true);
-                }, slideshowDuration);
-                slideshow.data('timeout', timeout);
-            }
+            
+            timeout = setTimeout(function() {
+                slideshowNext(slideshow, false, true);
+            }, slideshowDuration);
+            slideshow.data('timeout', timeout);
+            
         });
     }
 }
