@@ -298,9 +298,40 @@ sec004_promis
     border: solid 2px rgb(230, 230, 230);
 }
 
+.activities{
+    display: flex;
+    background: #E1E1E1;
+    height: 273px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.activ-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 140px;
+    background: white;
+    border: 1px solid #707070;
+}
+
+.activ-con h5{
+    color: #707070;
+    font-weight: 100;
+}
+
+.sunrise{
+    width: 97px;
+    height: 97px;
+    background: url(../img/ｑ.png) no-repeat top center/cover;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
 /* 
 
-sec005_promis
+sec005_info
 
 --------------------*/
 
@@ -334,28 +365,6 @@ sec005_promis
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.sec005-in .flex h4{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    position: relative;
-    font-weight: 100;
-    letter-spacing: 20px;
-}
-
-.sec005-in .flex h4::after{
-    content: "";
-    width:25px;
-    height: 300px;
-    background: #FF6E6E;
-    position: absolute;
-    z-index: -1;
-    top: 47%;
-    left: 200%;
-    transform: translate(-50%, -50%);
-}
-
-
 
 .mediaBox{
     width: 700px;
@@ -396,4 +405,32 @@ sec005_promis
     width: 350px;
     height: 350px;
     border: solid 1px #707070;
+}
+
+.footImg{
+    background: url(../img/foot.jpg) no-repeat top center/cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* 
+
+sec006_advertis
+
+--------------------*/
+.sec006-content {
+    max-width: 1160px;
+    margin: 70px auto;
+}
+
+.sec006-content .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.advertis{
+    width: 350px;
+    height: 140px;
+    border: 1px solid #707070;
 }
