@@ -185,7 +185,7 @@ sec002_column---2---
 }
 
 .img-side .btn:hover {
-    color: #cc0000;
+    color: #FF6E6E;
     transition: color 0.1s linear 0s;
 }
 
@@ -229,3 +229,175 @@ sec003_SNS
 sec004_promis
 
 --------------------*/
+
+.sec004-content {
+    max-width: 1160px;
+    margin: 70px auto;
+    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
+}
+
+.sec004-content .flex {
+    display: flex;
+}
+
+.sec004-in {
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.sec004-in h1 {
+    position: relative;
+}
+
+.sec004-in h1::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #707070;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec004-in h4{
+    text-align: left;
+}
+
+.sec004-in p {
+    margin: 20px 0;
+}
+
+.sec004-in .img {
+    content: "";
+    background: url(../img/profile-img.jpg) no-repeat top -80px center/cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.sec004-in .img::after {
+    background-color: #BCBCBC;
+    content: '';
+    height: 90%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: -60px;
+    left: 100px;
+}
+
+.sec004-in .img-side {
+    content: "";
+    background: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    padding: 20px;
+    position: relative;
+    border: solid 2px rgb(230, 230, 230);
+    box-shadow: 2px 2px black;
+}
+
+/* 
+
+sec005_promis
+
+--------------------*/
+
+.sec005-content {
+    max-width: 1160px;
+    margin: 70px auto;
+    filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.5));
+}
+
+.sec005-content .flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec005-in {
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.sec005-in h1 {
+    position: relative;
+}
+
+.sec005-in h1::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #707070;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sec005-in .flex h4{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: relative;
+    font-weight: 100;
+    letter-spacing: 20px;
+}
+
+.sec005-in .flex h4::after{
+    content: "";
+    width:25px;
+    height: 300px;
+    background: #FF6E6E;
+    position: absolute;
+    z-index: -1;
+    top: 47%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.mediaBox{
+    width: 700px;
+    margin-top: 7em;
+}
+
+.youtube a{
+    display: flex;
+}
+
+.youtubeLogo{
+    background: url(../img/yt_logo_rgb_light.png) no-repeat center center/200px;
+    width: 350px;
+    height: 350px;
+    border: solid 1px #707070;
+}
+
+.youtubeImg{
+    background: url(../img/main-image001.jpg) no-repeat center center/cover;
+    width: 350px;
+    height: 350px;
+    border: solid 1px #707070;
+}
+
+.itinana a{
+    display: flex;
+}
+
+.itinanaLogo{
+    background: url(../img/17live.png) no-repeat center center/250px;
+    width: 350px;
+    height: 350px;
+    border: solid 1px #707070;
+}
+
+.itinanaImg{
+    background: url(../img/main-image002.jpg) no-repeat center center/cover;
+    width: 350px;
+    height: 350px;
+    border: solid 1px #707070;
+}
