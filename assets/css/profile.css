@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.eyeCatch{
+    margin: 0 auto;
+    height: 400px;
+    background: url(../img/1440x880-main-002.jpg)no-repeat top center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.eyeCatch h1{
+    font-size: 70px;
+    position: relative;
+    color: white;
+}
+
+.eyeCatch h1::after{
+    content: "";
+    width: 200px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 
+プロフィール
+*/
+
+.sec001-content {
+    max-width: 1160px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sec001-in {
+    text-align: center;
+    color: black;
+    background: #F6F6F6;
+    width: 60%;
+    position: relative;
+    padding: 50px;
+}
+
+.sec001-in::before{
+    content: "";
+    background: url(../img/profile_img.JPG) no-repeat center center/cover;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: -100px;
+    left: -130px;
+    z-index: 10;
+}
+
+.sec001-in::after{
+    content: "";
+    background: url(../img/prof-img2.jpg) no-repeat center center/cover;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: -150px;
+    right: -100px;
+    z-index: 10;
+}
+
+.sec001-in h2{
+    background: #A2A2A2;
+    width: 80%;
+    color: white;
+    padding: 10px 0;
+    position: absolute;
+    top: -40px;
+    right: -150px;
+    z-index: 10;
+}
+
+.name{
+    margin: 50px auto;
+}
+
+.sec001-in p{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 200%;
+}
+
